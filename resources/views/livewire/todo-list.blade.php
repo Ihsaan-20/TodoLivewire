@@ -16,9 +16,7 @@
             @endforeach
         </div>
         {{-- pagination --}}
-        <nav aria-label="Page navigation">
-            {{$todos->links()}}
-        </nav>
+        {{$todos->links()}}
 
     </div>
 </div>
